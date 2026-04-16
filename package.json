@@ -1,0 +1,15 @@
+{
+  "name": "log-tracer",
+  "version": "1.0.0",
+  "description": "Function-level tracing with AsyncLocalStorage and Winston",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "winston": "^3.11.0"
+  }
+}
