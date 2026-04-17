@@ -4,12 +4,15 @@
   "description": "Function-level tracing with AsyncLocalStorage and Winston",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "demo:raw": "node index.js",
+    "demo:pkg": "node index-fn-tracer.js"
   },
   "engines": {
     "node": ">=18"
   },
   "dependencies": {
+    "fn-tracer": "file:../package",
     "winston": "^3.11.0"
   }
 }
